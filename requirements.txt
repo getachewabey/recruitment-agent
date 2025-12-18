@@ -1,0 +1,11 @@
+streamlit
+supabase
+google-generativeai
+pydantic
+PyPDF2
+python-docx
+pandas
+plotly
+python-dotenv
+tiktoken
+watchdog

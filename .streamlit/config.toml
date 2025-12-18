@@ -1,0 +1,4 @@
+[theme]
+primaryColor = "#14B8A6"  # Teal-500
+# Removing hardcoded backgrounds to allow Streamlit's native Light/Dark toggle to work.
+
