@@ -1,4 +1,10 @@
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Add project root to sys.path
+root_path = Path(__file__).parent.parent
+sys.path.append(str(root_path))
 
 import pandas as pd
 from src.auth import get_current_user

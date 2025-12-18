@@ -1,5 +1,11 @@
 
 import streamlit as st
+import sys
+from pathlib import Path
+
+# Add project root to sys.path
+root_path = Path(__file__).parent.parent
+sys.path.append(str(root_path))
 import json
 from src.auth import get_current_user
 from src.db import create_job, get_jobs, get_user_role
