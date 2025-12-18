@@ -2,7 +2,7 @@ import streamlit as st
 from src.auth import login_user, logout_user, get_current_user
 from src.ui import apply_custom_css, display_theme_toggle
 
-# Page Config
+# Page Config - Trigger Redeploy
 st.set_page_config(
     page_title="AI Recruitment Agent",
     page_icon="🤖",
