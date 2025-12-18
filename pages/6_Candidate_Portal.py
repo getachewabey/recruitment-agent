@@ -25,6 +25,14 @@ display_theme_toggle()
 
 user = get_current_user()
 if not user:
+    st.info("👋 Hello! Please log in to access the Candidate Portal.")
+    st.markdown("""
+        <div style="text-align: center; margin-top: 20px;">
+            <h3>Please Sign In</h3>
+            <p>Go to the main application page to log in or sign up.</p>
+            <a href="/" target="_self" style="background-color: #14B8A6; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Go to Login Page</a>
+        </div>
+    """, unsafe_allow_html=True)
     st.stop()
 
 # Logout Option
